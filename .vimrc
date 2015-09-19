@@ -37,6 +37,7 @@ filetype plugin indent on
 " YCM and some autocomplete configuration                    YCM00
 let g:ycm_autoclose_preview_window_after_completion=0
 let g:ycm_global_ycm_extra_conf='/home/jarsp/.vim/ycm_extra_conf_def.py'
+let g:clang_complete_macros=1
 set pumheight=8
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " UltiSnips trigger configuration                            SNP00
@@ -59,6 +60,7 @@ set shiftwidth=4
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Font and colors                                            THM00
 " These lines have to come after "syntax on"
+let &t_Co=256
 color vibrantink
 hi Normal ctermbg=none
 hi Nontext ctermbg=none
